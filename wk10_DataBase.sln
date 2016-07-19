@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wk10_DataBase", "wk10_DataBase\wk10_DataBase.csproj", "{83A5A365-8526-428D-BB18-43B59E918335}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase_Console", "DataBase_Console\DataBase_Console.csproj", "{81A05843-581C-4C62-B30E-2E49A8A0F4CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB_Grid", "DataForm2\AccessDB_Grid.csproj", "{1A248723-2178-444B-B667-82012A363C51}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{83A5A365-8526-428D-BB18-43B59E918335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A5A365-8526-428D-BB18-43B59E918335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A5A365-8526-428D-BB18-43B59E918335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A5A365-8526-428D-BB18-43B59E918335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81A05843-581C-4C62-B30E-2E49A8A0F4CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A05843-581C-4C62-B30E-2E49A8A0F4CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A05843-581C-4C62-B30E-2E49A8A0F4CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A05843-581C-4C62-B30E-2E49A8A0F4CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A248723-2178-444B-B667-82012A363C51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A248723-2178-444B-B667-82012A363C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A248723-2178-444B-B667-82012A363C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A248723-2178-444B-B667-82012A363C51}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
