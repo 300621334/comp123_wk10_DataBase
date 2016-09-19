@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBase_Console", "DataBas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccessDB_Grid", "DataForm2\AccessDB_Grid.csproj", "{1A248723-2178-444B-B667-82012A363C51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testDataBase", "testDataBase\testDataBase.csproj", "{D5159222-B3FF-4599-A70B-441351015DCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1A248723-2178-444B-B667-82012A363C51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A248723-2178-444B-B667-82012A363C51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A248723-2178-444B-B667-82012A363C51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5159222-B3FF-4599-A70B-441351015DCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5159222-B3FF-4599-A70B-441351015DCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5159222-B3FF-4599-A70B-441351015DCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5159222-B3FF-4599-A70B-441351015DCD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

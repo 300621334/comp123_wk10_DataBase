@@ -11,7 +11,7 @@ namespace DataBase_Console
         static void Main(string[] args)
         {
             //int[] num = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16};
-            Student[] stu = {  new Student(1, "Jones", 3.1),
+            Student[] studentCollection = {  new Student(1, "Jones", 3.1),
                                 new Student(2, "Kimball", 2.9),
                                 new Student(5, "Oliver", 2.6),
                                 new Student(6, "Mitchell", 3.0),
@@ -20,15 +20,15 @@ namespace DataBase_Console
                             };
             const int CUTOFF = 3;
             //Below is LINQ that is .NET code to query databases, as well as arrays or XML etc etc. = Langusge INtegrated Query
-            //Assign a query to a var. Assign result of query to that var.
-            var goodStu =
-                from s in stu
-                where s.GradePointAverage > CUTOFF
-                select s;
+            //Assign result of query to that var w becomes implicitly-types collection.
+            var goodStuCollection =
+                from eachItem in studentCollection
+                where eachItem.GradePointAverage > CUTOFF
+                select eachItem; //LINQ should end e select or group by. So orderby goes before eithor of these
             Console.WriteLine("Stud with GPA >" + CUTOFF);
-            foreach(var s in goodStu)
+            foreach(var anItem in goodStuCollection)
             {
-                Console.WriteLine("{0,3} {1,-8} {2,5}", s.IdNumber, s.Name, s.GradePointAverage.ToString("F1"));
+                Console.WriteLine("{0,3} {1,-8} {2,5}", anItem.IdNumber, anItem.Name, anItem.GradePointAverage.ToString("F1"));
             }
             //var highNum =
             //    from x in num
